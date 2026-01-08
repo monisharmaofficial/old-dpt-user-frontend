@@ -1,0 +1,36 @@
+.privacypolicyPage {
+    padding: 40px 0px;
+  }
+  
+  .privacypolicyPage h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0px 0px 15px;
+    color: #000;
+  }
+  
+  .privacypolicyPage ul {
+    padding-left: 15px;
+    margin: 0px 0px 20px;
+  }
+  
+  .privacypolicyPage ul li {
+    font-size: 14px;
+    color: #000;
+    font-weight: 400;
+    padding: 0px 0px 8px;
+    list-style: disc;
+  }
+
+
+  @media screen and (max-width:1199px) {
+    .container {
+      max-width: 1100px;}
+    }
+
+  @media screen and (max-width:991px) {
+  .container{
+    max-width:100% !important;
+    min-width:100% !important;
+}
+  }

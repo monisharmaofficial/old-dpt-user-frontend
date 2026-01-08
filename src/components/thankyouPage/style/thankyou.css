@@ -1,0 +1,59 @@
+.thankyouWrapper {
+    border-radius: 10px;
+    border: 1px dashed #F25928;
+    max-width: 900px;
+    margin: 70px auto;
+    text-align: center;
+    padding: 100px 15px;
+    background-image: url(../../../../public/images/homepage/thankubgimage.png);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.thankyouWrapper h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 25px;
+}
+.thankyouWrapper h2 {
+    font-family: 'Condiment', cursive;
+    font-weight: 400;
+    font-size: 85px;
+    color: #F25928;
+    margin: 0px 0px -40px;
+}
+.thankyouWrapper .cta {
+    background-color: #3EACD5;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    padding: 15px 70px;
+    display: table;
+    text-align: center;
+    border-radius: 5px;
+    margin: 0 auto;
+    text-transform: capitalize;
+}
+.thankyouWrapper .cta:hover{
+    background-color: #F25928;
+    color:#fff;
+}
+
+@media screen and (max-width:767px) {
+    .thankyouWrapper h2 {
+        font-size: 45px;
+        margin: 0px 0px -15px;
+    } 
+    .thankyouWrapper h1 {
+        font-size: 20px;}    
+        .thankyouWrapper {
+            margin: 50px auto;
+            padding: 50px 15px;
+
+        }
+        .thankyouWrapper .cta {
+            font-size: 16px;
+            padding: 12px 40px;
+        }
+}

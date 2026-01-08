@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 400;
+}
+img{max-width:100%;}
+p{
+    font-size:14px;
+    font-weight:400;
+}
+a{
+    text-decoration: none;
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+button.btn.focus, .btn:focus{
+    box-shadow: none;
+    outline:none;
+    -webkit-appearance: none;
+    appearance:none;
+}
+dl, ol, ul{
+    margin:0px;
+    padding:0px;
+    list-style: none;
+}
+input{
+    outline: none;
+    -webkit-appearance: none;
+    appearance:none;
+    font-family: 'Poppins', sans-serif; 
+}
+::placeholder{
+    color:primaryColor;
+}
+@import url('https://fonts.googleapis.com/css2?family=Condiment&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+.mobileNone{display:none;}
+.desktopNone {display:block;}
+
+@media only screen and (min-width:992px){
+.mobileNone{display: block;}
+.desktopNone {display: none;}
+}

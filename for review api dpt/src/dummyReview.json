@@ -1,0 +1,29 @@
+{
+    "place_id": "YOUR_PLACE_ID",
+    "name": "Sample Place",
+    "rating": 4.5,
+    "percentageFifthStarReviews":0,
+    "percentageFourthStarReviews":0,
+    "percentageThirdStarReviews":50,
+    "percentageSecondStarReviews":0,
+    "percentageFirstStarReviews":50,
+    "totalThirdStarReviews":1,
+    "totalFifthStarReviews":1,
+    "totalFourStarReviews":1,
+    "totalSecondStarReviews":1,
+    "totalFirstStarReviews":1,
+
+    "reviews": [
+      {
+        "author_name": "John Doe",
+        "rating": 5,
+        "text": "Great place!"
+      },
+      {
+        "author_name": "Jane Smith",
+        "rating": 3,
+        "text": "Average experience."
+      }
+    ]
+  }
+  

@@ -1,0 +1,574 @@
+.InnerBanner {
+  padding: 150px 0px;
+  text-align: center;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.InnerBanner h1 {
+  margin: 0px;
+  font-size: 55px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #fff;
+  position: relative;
+}
+
+.InnerBanner h1::before {
+  content: "";
+  height: 7px;
+  width: 180px;
+  background-color: #F25928;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: -12px;
+}
+
+@media screen and (max-width: 991px) {
+  .InnerBanner h1 {
+    font-size: 40px;
+  }
+  .InnerBanner h1::before {
+    height: 5px;
+    width: 120px;
+  }
+  .InnerBanner {
+    padding: 110px 0px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .InnerBanner h1 {
+    font-size: 24px;
+  }
+}
+.BreadcrumbSection .breadcrumb {
+  margin: 0px;
+  padding: 15px 0px;
+}
+.BreadcrumbSection .breadcrumb li {
+  color: #f25928;
+  font-size: 13px;
+  font-weight: 500;
+}
+.BreadcrumbSection .breadcrumb li a {
+  color: #000000;
+  font-size: 13px;
+  font-weight: 500;
+}
+.BreadcrumbSection .breadcrumb li a:hover {
+  text-decoration: underline;
+}
+
+.breadcrumb-item + .breadcrumb-item {
+  padding-left: 5px;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  content: ">";
+  font-size: 16px;
+  margin-top: -2px;
+  height: 22px;
+  font-weight: 400;
+  padding-right: 5px;
+}
+
+.TouristVisaPageWrapper {
+  display: flex;
+  margin: 15px 0px 40px;
+}
+
+.TouristVisaPageWrapper .TouristVisaLhs {
+  margin-right: 25px;
+  min-width: calc(30% - 25px);
+  width: calc(30% - 25px);
+}
+
+.adv {
+  margin: 0px 0px 30px;
+}
+
+.adv img {
+  width: 100%;
+}
+
+.TouristVisaPageWrapper .TouristVisaRhs {
+  width: 70%;
+}
+
+.TouristVisaTabSection ul li button {
+  background-color: #f5f5f5;
+  color: #000;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin: 2px;
+  text-align: center;
+  padding:10px 7px;
+
+}
+
+.TouristVisaTabSection ul li button.nav-link.active {
+  background-color: #f25928;
+  color: #fff;
+}
+
+.TouristVisaTabSection .nav-link:focus, .TouristVisaTabSection .nav-link:hover {
+  color: #3DAAD5;
+}
+
+.TripadvisorImgNew {
+  margin-bottom: 30px;
+}
+
+.TripadvisorImgNew img {
+  width: 100%;
+}
+
+.TouristVisaTabSection ul.mb-3 {
+  margin: 0px 0px 30px !important;
+}
+
+.TouristVisaForm .formGroup input, .TouristVisaForm .formGroup select {
+  border: 1px solid #D9D9D9;
+  border-radius: 5px;
+  color: #9D9D9D;
+  font-size: 14px;
+  font-weight: 400;
+  height: 45px;
+  outline: none;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+}
+
+.TouristVisaForm .formGroup.fileattach input {
+  padding-top: 8px;
+}
+
+.TouristVisaForm .formGroup input::-moz-placeholder {
+  color: #9D9D9D;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.TouristVisaForm .formGroup input::placeholder {
+  color: #9D9D9D;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.TouristVisaForm label {
+  font-size: 16px;
+  color: #000;
+  font-weight: 500;
+  margin-bottom: 5px;
+  padding:0px;
+  width:100%;
+}
+.TouristVisaForm .btn-success {
+  font-size: 14px;
+  border-radius: 4px;
+  margin: 5px 0px 15px;
+  cursor: pointer;
+  position: relative;
+}
+
+.TouristVisaForm  .alert.alert-light {
+padding: 10px !important;
+font-size: 14px;
+}
+.TouristVisaForm .alert.alert-light:empty, .TouristVisaForm .card:empty{
+display: none;
+}
+.TouristVisaForm label small {
+  font-size: 12px;
+  color: #989898;
+}
+
+.BtnGroupTouristVisa {
+  display: flex;
+  -moz-column-gap: 15px;
+       column-gap: 15px;
+  margin: 25px 0px 0px;
+}
+
+.BtnGroupTouristVisa .cta {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+       appearance: none;
+  background-color: #F25928;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 500;
+  padding: 12px 30px;
+  text-align: center;
+  border-radius: 5px;
+  display: inline-block;
+  border: 0px;
+  width: 200px;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+}
+
+.BtnGroupTouristVisa .cta:first-child {
+  background-color: #3DAAD5;
+}
+
+button, a {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+       appearance: none;
+}
+
+.TouristVisaTabInner table td, .TouristVisaTabInner table th {
+  border: 1px solid #dee2e6;
+  font-size: 14px;
+  vertical-align: top;
+  color: #000;
+}
+
+.TouristVisaTabInner table td strong, .TouristVisaTabInner table th strong {
+  font-weight: 500;
+}
+
+.TouristVisaTabInner h2 {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 0px 0px 15px;
+}
+
+.TouristVisaTabInner .table-responsive {
+  margin: 0px 0px 10px;
+}
+
+.TouristVisaTabInner p strong {
+  display: block;
+}
+
+.TouristVisaTabInner .TouristVisaForm .submitcta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.TouristVisaTabInner .TouristVisaForm .submitcta .cta {
+  background-color: #3DAAD5;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 500;
+  padding: 12px 30px;
+  text-align: center;
+  border-radius: 5px;
+  display: inline-block;
+  border: 0px;
+  width: 200px;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+}
+
+@media screen and (max-width: 991.32px) {
+  .TouristVisaTabInner .TouristVisaForm .submitcta {
+    margin-top: 0px;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .TouristVisaPageWrapper {
+    flex-direction: column-reverse;
+    margin: 0px;
+  }
+  .TouristVisaPageWrapper .TouristVisaRhs {
+    width: 100%;
+  }
+  .TouristVisaPageWrapper .TouristVisaLhs {
+    width: 100%;
+    min-width: 100%;
+    margin: 30px 0px 0px;
+  }
+  .TouristVisaTabSection ul {
+    flex-wrap: wrap;
+  }
+  .TouristVisaTabSection ul li {
+    width: 50%;
+    min-width: 50%;
+    display: inline-table;
+  }
+  .TouristVisaTabSection ul li button {
+    font-size: 14px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 98%;
+  }
+}
+@media screen and (max-width: 575px) {
+  .TouristVisaTabSection ul li {
+    width: 100%;
+    min-width: 100%;
+  }
+}
+.PopularTours {
+  padding: 0px 0px 65px;
+  background-color: #fff;
+}
+
+.TabBox {
+  border-radius: 5px;
+  box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.16);
+  background-color: #fff;
+  width: 100%;
+  overflow: hidden;
+  margin: 4px;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+}
+
+.TabBox:hover {
+  box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.32);
+}
+
+.TabBox .img {
+  position: relative;
+}
+
+.TabBox .img .discountrow {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  right: 12px;
+}
+
+.TabBox .img .discountrow .discount span {
+  background-color: #EA2D34;
+  color: #fff;
+  width: 50px;
+  min-width: 50px;
+  padding: 2px 4px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  position: absolute;
+}
+
+.TabBox .img .discountrow .wishlistIcon {
+  background-image: url("data:image/svg+xml,%0A%3Csvg width='19' height='19' viewBox='0 0 19 19' fill='none' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Crect width='19' height='19' fill='url(%23pattern0)'/%3E%3Cdefs%3E%3Cpattern id='pattern0' patternContentUnits='objectBoundingBox' width='1' height='1'%3E%3Cuse xlink:href='%23image0_64_163' transform='scale(0.015625)'/%3E%3C/pattern%3E%3Cimage id='image0_64_163' width='64' height='64' xlink:href='data:image/png;base64,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'/%3E%3C/defs%3E%3C/svg%3E%0A");
+  background-repeat: no-repeat;
+  background-position: 49% 52%;
+  background-size: 19px;
+  width: 35px;
+  min-width: 35px;
+  height: 35px;
+  min-height: 35px;
+  border-radius: 100px;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+
+.TabBox .img .imgBottomRow {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0px;
+  left: 12px;
+  right: 12px;
+  gap: 10px;
+}
+
+.TabBox .img .imgBottomRow .lhstext {
+  position: absolute;
+  left: 0;
+  bottom: 12px;
+}
+
+.TabBox .img .imgBottomRow .rhsimg {
+  position: absolute;
+  bottom: 10px;
+  right: 0px;
+}
+
+.TabBox .img .imgBottomRow .rhsimg div {
+  display: flex;
+  align-items: baseline;
+  right: -8px;
+  position: relative;
+}
+
+.TabBox .img .imgBottomRow .lhstext span {
+  font-size: 18px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #fff;
+  width: 145px;
+  min-width: 145px;
+  line-height: 20px;
+  display: block;
+}
+
+.TabBox .img img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.TabBox .img .imgBottomRow .rhsimg div img {
+  width: auto;
+  max-width: 95px;
+}
+
+.TabBox h4 {
+  font-size: 16px;
+  color: #000;
+  font-weight: 600;
+  margin: 0px;
+  min-height: 40px;
+}
+
+.TabBox p {
+  margin: 4px 0px 8px;
+  font-size: 13px;
+  font-weight: 400;
+  min-height: 60px;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+}
+
+.TabBox span {
+  font-size: 12px;
+  font-weight: 500;
+  color: #000;
+}
+
+.aedtext {
+  color: #FA7436;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  margin-top: 6px;
+  white-space: nowrap;
+}
+
+.aedtext strong {
+  font-size: 20px;
+}
+
+.aedRHS {
+  font-size: 13px;
+  color: #000;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.TabBoxBody {
+  padding: 15px 12px 15px;
+  border-bottom: 1px solid #F1F1F1;
+}
+
+.ReviewRow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.ReviewRow span {
+  position: relative;
+  top: 2px;
+}
+
+.ReviewRow span.location {
+  padding: 2px 0px 2px 20px;
+  background-image: url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-geo-alt' viewBox='0 0 16 16'%3E%3Cpath d='M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z'/%3E%3Cpath d='M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: left top 3px;
+  background-size: 15px;
+}
+
+.TabBoxFooter {
+  padding: 0px 12px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.aedLHS {
+  border-right: 1px solid #F1F1F1;
+  padding: 5px 15px 10px 0px;
+}
+
+.Title h2 {
+  font-size: 30px;
+  font-weight: 700;
+  border-left: 5px solid #3DAAD5;
+  padding-inline-start: 30px;
+  margin-bottom: 35px;
+  color: #000;
+}
+
+@media only screen and (min-width:991.33px){
+  /* .TouristVisaTabSection ul{
+    position: relative;
+    flex-flow: nowrap;
+    white-space: nowrap;
+    overflow-y: hidden;
+    overflow-x: auto;
+}
+
+.TouristVisaTabSection ul::-webkit-scrollbar{
+  display: none;
+} */
+}
+
+@media screen and (max-width: 1199px) {
+  .aedtext {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width:1050px) {
+  .TouristVisaTabSection ul li button{
+    padding:10px 4px;
+    font-size:13px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .TabBox {
+    width: auto;
+  }
+ 
+}
+@media screen and (max-width: 991px) {
+  .Title h2 {
+    padding-inline-start: 15px;
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  .TouristVisaTabInner h2{
+    font-size:26px;
+  }
+  .PopularTours {
+    padding-bottom: 30px;
+  }
+  .TouristVisaTabSection ul li button {
+    margin: 5px 2px;
+}
+.TouristVisaTabSection ul li button{
+  padding:10px 8px;
+  font-size:14px;
+}
+}
+@media screen and (max-width: 575px) {
+  .TabBox h4, .TabBox p {
+    min-height: auto;
+  }
+}

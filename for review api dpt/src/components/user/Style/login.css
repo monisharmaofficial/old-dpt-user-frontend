@@ -1,0 +1,146 @@
+
+.loginForm {
+  padding: 60px 0px;
+}
+
+.FormWrapper {
+  max-width: 600px;
+  margin: 0 auto;
+  border-radius: 10px;
+  border: 1px solid #F2F2F2;
+  background-color: #FCFCFC;
+  padding: 40px 70px;
+}
+
+.FormWrapper .FormTopText {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.FormWrapper .FormTopText h1 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #000;
+}
+
+.FormWrapper .FormTopText p {
+  font-size: 16px;
+  margin: 0px;
+}
+
+.FormWrapper .formGroup label {
+  color: #000;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.FormWrapper .formGroup input {
+  border: 1px solid #D9D9D9;
+  border-radius: 5px;
+  color: #212529;
+  font-size: 14px;
+  font-weight: 400;
+  height: 45px;
+  outline: none;
+}
+
+.FormWrapper .formGroup input::-moz-placeholder {
+  color: #AFAEAE;
+}
+
+.FormWrapper .formGroup input::placeholder {
+  color: #AFAEAE;
+}
+
+.form-control:focus, .form-select:focus, .form-check-input:focus {
+  border-color: #D9D9D9;
+  box-shadow: none;
+}
+
+.FormWrapper .CheckBoxrow {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.FormWrapper .CheckBoxrow .form-check .form-check-input:checked {
+  background-color: #F25928;
+  border-color: #F25928;
+}
+
+.FormWrapper .CheckBoxrow .form-check label {
+  font-size: 12px;
+  font-weight: 400;
+  color: #A1A1A1;
+}
+
+.FormWrapper .CheckBoxrow .forgotepassword {
+  font-size: 12px;
+  font-weight: 500;
+  color: #000;
+  transition:all 0.3s;
+}
+.FormWrapper .CheckBoxrow .forgotepassword:hover{
+ color: #F25928;
+}
+.FormWrapper .formGroup .btn {
+  background-color: #F25928;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 500;
+  padding: 10px 15px;
+  width: 100%;
+  display: block;
+  text-align: center;
+  border-radius: 5px;
+  margin: 30px 0px 15px;
+  text-decoration: none;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+}
+
+.FormWrapper .formGroup .btn:hover {
+  background-color: #3DAAD5;
+  color: #fff;
+}
+
+.FormWrapper .CreateAccountLabel {
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  color: #000;
+  transition: all 0.3s;
+}
+.FormWrapper .CreateAccountLabel:hover{
+  color: #F25928;
+}
+
+
+.FormWrapper .CreateAccountLabel a {
+  color: #F25928;
+  background-image: url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%23F25928' class='bi bi-arrow-right' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right;
+  padding-right: 22px;
+  background-size: 18px;
+}
+
+@media screen and (max-width: 991px) {
+  .FormWrapper {
+    padding: 25px;
+  }
+  .FormWrapper .FormTopText h1 {
+    font-size: 25px;
+  }
+  .FormWrapper .FormTopText p {
+    font-size: 14px;
+  }
+  .FormWrapper .formGroup .btn {
+    margin: 25px 0px 10px;
+    font-size: 16px;
+  }
+  .FormWrapper .CreateAccountLabel {
+    font-size: 12px;
+  }
+}

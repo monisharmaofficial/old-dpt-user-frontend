@@ -1,0 +1,26 @@
+/* login.css or your CSS file */
+.success-popup {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    color: white;
+    background-color: #f25928;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    opacity: 0.95; /* Corrected: No comma here */
+  }
+  /* Your existing CSS */
+.success-popup {
+    /* ... (other styles) */
+    transition: transform 1s ease-out;
+    transform: translateX(0);
+  }
+  
+  .success-popup.hide {
+    transform: translateX(150%);
+  }
+  
+  
+  
