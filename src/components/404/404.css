@@ -1,0 +1,39 @@
+.notfoundpage {
+    padding: 40px 0px;
+    text-align: center;
+    background-color:#fff;
+    /* background-image: url(../../../public/images/banner/banner.png);
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    background-attachment: fixed; */
+}
+.notfoundpage h1 {
+    color: #f25928;
+    font-weight:700;
+    font-size:70px;
+    margin:0px 0px 30px;
+}
+
+.notfoundpage h2 {
+    color: #000;
+    font-weight: 600;
+    font-size: 28px;
+    margin: 0px 0px 5px;
+}
+
+.notfoundpage p{
+    color: #000;
+    font-weight:400;
+    font-size:15px;
+    margin:0px 0px 20px;
+}
+.notfoundpage button.cta {
+    border: 0px;
+    padding: 12px 25px;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+    background-color: #f25928;
+    cursor: pointer;
+}

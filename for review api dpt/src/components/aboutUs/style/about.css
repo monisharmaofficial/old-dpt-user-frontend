@@ -1,0 +1,70 @@
+/* .BreadcrumbSection {
+    margin: 0px 0px 30px;
+  } */
+
+  .BreadcrumbSection .breadcrumb {
+    margin: 0px;
+    padding: 30px 0px;
+}
+  
+  .TopAboutUs {
+    text-align: center;
+    margin: 0px 0px 40px;
+  }
+  
+  .AboutUsPage h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0px 0px 15px;
+    color: #000;
+  }
+  
+  .AboutUsPage h3 {
+    font-size: 22px;
+    font-weight: 500;
+    margin: 0px 0px 15px;
+    color: #000;
+  }
+  
+  .TopAboutUs p {
+    max-width: 800px;
+    margin: 0 auto 15px;
+  }
+  
+  .BottomAboutUs {
+    padding: 0px 0px 40px;
+  }
+  
+  .AboutTextLhs {
+    position: relative;
+    margin: 60px 0 0 60px;
+  }
+  
+  .AboutTextLhs:before {
+    position: absolute;
+    inset: -60px 0 0 -60px;
+    z-index: -1;
+    content: "";
+    background: url(../../../../public/images/homepage/about-bg.png) top left;
+    background-repeat: no-repeat;
+  }
+  
+  .AboutTextRhs {
+    padding: 60px 0px 0px;
+  }
+  @media screen and (max-width:1199px) {
+    .container {
+      max-width: 1100px;}
+    }
+  
+
+  @media screen and (max-width:991px) {
+    .BreadcrumbSection{
+      margin:0px;
+    }
+    .container{
+      max-width:100% !important;
+      min-width:100% !important;
+  }
+  
+  }
